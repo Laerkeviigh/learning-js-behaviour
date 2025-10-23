@@ -10,15 +10,18 @@ body {
 
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column; 
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    gap: 2rem; 
 }
 
-#word {
-    margin-top: 4rem;
+#word, #slogan2, #slogan3 {
     font-size: 3rem;
-    color: darkcyan
+    color: darkcyan;
+    text-align: center; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
 }
 
 
