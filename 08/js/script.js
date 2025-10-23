@@ -32,3 +32,14 @@ getWordElem.addEventListener("click", function() {
 });
 
 
+// Pulse 
+getWordElem.addEventListener("click", function() {
+    this.classList.add("pulse");
+    setTimeout(() => this.classList.remove("pulse"), 600);
+});
+
+// RotateY 
+getWordElem.addEventListener("dblclick", function() { // dobbeltklik for at aktivere
+    this.classList.add("rotateY");
+    setTimeout(() => this.classList.remove("rotateY"), 800);
+});
